@@ -10,7 +10,7 @@ li{
     list-style: none;
 }
 body{
-    font-family: 'inter',sans-serif;
+    font-family: 'inter','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fff;
 }
 .logo{
@@ -41,10 +41,7 @@ nav{
     color:#1E1E1E;
     text-align: center;
     padding: 14px 16px;
-    font-size: 15px;
-}
-.topnav .icon{
-    display: none;
+    font-size: 18px;
 }
 .topnav a:hover{
     border-bottom:solid 2px #1E1E1E ;
@@ -58,15 +55,27 @@ nav{
     justify-content: center;
 }
 .advanteges{
+    
     padding: 40px;
     width: 70%;
     display: flex;
     justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
+    
+}
+.h3-vertical-center{
+    color: #1E1E1E;
+}
+.centered{
+    color: #1E1E1E;
+}
+.kk{
+    background-color: #fff;
 }
 .advanreges__items{
     width: 30%;
+    margin-bottom: 40px;
 }
 footer{
     width: 100%;
@@ -191,6 +200,59 @@ opacity: .7;
  position: relative;
  white-space: nowrap;
 }
+.centered {
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:40px;
+    font-weight: bolder
+    
+}
+section {
+    color: #fff; 
+    padding: 8rem; 
+    position: relative; 
+   }
+   section::before {
+    content: '';
+    position: absolute; 
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
+    background: url(img/fon1.png) center / cover no-repeat;
+    filter: blur(3px);
+   
+   }
+   .centered::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background-color:rgba(77, 77, 77 0.2) ;
+    z-index: -1;
+    /* filter: blur(5px); */
+   }
+
+   .icon{
+    display: none;
+   }
+   .centered{
+    color: #ffffff;
+    /* -webkit-text-stroke: 0.5px #000000; */
+    /* text-stroke: 1px #000000; */
+    text-shadow: 0 0 3px #1E1E1E;
+    background-color:rgba(255, 255, 255, 0.4) ;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+   /* .back{
+    background-color: #aa1111;
+    filter: blur(3px);
+   } */
 
 
 
@@ -205,6 +267,10 @@ opacity: .7;
     }
     .blog-container{
         width: 20rem;
+    }
+    .category-img{
+        width: 30%;
+        margin-left: 10px;
     }
 .foto-itm {
    
