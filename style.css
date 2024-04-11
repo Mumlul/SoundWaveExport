@@ -12,6 +12,9 @@ li{
 body{
     font-family: 'inter','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .logo{
     background-color: #1E1E1E ;
@@ -84,6 +87,7 @@ footer{
 text-align: center;
 margin: 0 auto;
 padding-top: 25px;
+margin-top: auto;
 }
 footer a{
     color: #fff;
@@ -153,6 +157,8 @@ opacity: .7;
 }
 .blog-text p{
     color: #4d4d4d;
+    margin: 10px;
+    padding: 3%;
 }
 .blog-tags ul{
     display: flex;
@@ -245,14 +251,21 @@ section {
     /* text-stroke: 1px #000000; */
     text-shadow: 0 0 3px #1E1E1E;
     background-color:rgba(255, 255, 255, 0.4) ;
-    border-radius: 10px;
+    border-radius:10px;
     margin-left: 0px;
     margin-right: 0px;
+    text-align:center;
    }
    /* .back{
     background-color: #aa1111;
     filter: blur(3px);
    } */
+   .info{
+    background-color:#4d4d4d;
+   }
+   .backi{
+    background: url(img/g1.png) center;
+   }
 
 
 
